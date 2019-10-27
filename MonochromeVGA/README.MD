@@ -5,3 +5,5 @@ MonochromeVGA is a product to enjoy the charm of those monochrome monitors of th
 Select green, amber or B&W as monochromatic color, among others. Change color to monochrome or vice versa easily.
 
 https://hackaday.io/project/166041-monochromevga
+
+![alt text](MonochromeVGA.png "Esquema")
