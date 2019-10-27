@@ -1,4 +1,4 @@
-#Description
+# Description
 
 MonochromeVGA is a product to enjoy the charm of those monochrome monitors of the time but in the current video systems, and more specifically in your PC monitor. Although it could be connected to any TV, monitor or video system that has VGA inputs.
 
