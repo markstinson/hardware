@@ -13,3 +13,5 @@ The first start is always correct, it works and you can hear it perfectly, clear
 The ICs or components do not look hot, and the voltage tracks are not larger than the rest of the signals, this could be an error, however the width of the same should be sufficient for the mA demand of the ICs (I think) .
 
 Another theory is that I do not use electrolytic 10uF capacitors as in the original design, they are 10uF without polarity, but in principle I think that should not affect the operation.
+
+Is the width of the tracks? Is the position of the components? Is it the quality or type of components? Those're the questions.
