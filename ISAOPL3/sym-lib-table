@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OPL3)(type Legacy)(uri ${KIPRJMOD}/libs/OPL3.lib)(options "")(descr ""))
+  (lib (name ISAOPL3-rescue)(type Legacy)(uri ${KIPRJMOD}/ISAOPL3-rescue.lib)(options "")(descr ""))
+)
