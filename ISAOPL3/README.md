@@ -17,3 +17,9 @@ The ICs or components do not look hot, and the voltage tracks are not larger tha
 Another theory is that I do not use electrolytic 10uF capacitors as in the original design, they are 10uF without polarity, but in principle I think that should not affect the operation.
 
 Is the width of the tracks? Is the position of the components? Is it the quality or type of components? Those're the questions.
+
+Issue found:
+
+The problem is in the 1uF WIMA capacitors. If after losing the sound I download them with my finger, it works again!
+
+There is a slight difference with the design of the Resound OPL, I have put the 1uJ63 on it and they use the 1uM63. I will try to determine that it is not any other design problem, in principle by replacing them with 1uF MLCCs.
