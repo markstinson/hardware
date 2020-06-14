@@ -20,6 +20,10 @@ Is the width of the tracks? Is the position of the components? Is it the quality
 
 Issue found:
 
-The problem is in the 1uF WIMA capacitors. If after losing the sound I download them with my finger, it works again!
+The problem is in the 1uF WIMA capacitors. If after losing the sound I uncharge them with my finger, it works again!
 
 There is a slight difference with the design of the Resound OPL, I have put the 1uJ63 on it and they use the 1uM63. I will try to determine that it is not any other design problem, in principle by replacing them with 1uF MLCCs.
+
+Fix: 
+
+Specifically the primary 1uF capacitors were left charged, I have solved this by adding a couple of resistors, I will post a demo video soon...
