@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L my_components:ATF16V8B U2
+L RTC8088-rescue:ATF16V8B-my_components U2
 U 1 1 5DF7CA54
 P 9650 3350
 F 0 "U2" H 9650 4138 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 9650 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:BUSPC_DEV BUS1
+L RTC8088-rescue:BUSPC_DEV-my_components BUS1
 U 1 1 5DF83AF6
 P 2300 3900
 F 0 "BUS1" H 2300 5710 70  0000 C CNN
@@ -123,7 +123,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 4300 4650 4300
 $Comp
-L Device:Crystal X1
+L RTC8088-rescue:Crystal-Device X1
 U 1 1 5DC959D0
 P 7050 2950
 F 0 "X1" V 7096 2819 50  0000 R CNN
@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3100 7050 3100
 $Comp
-L power:GND #PWR0101
+L RTC8088-rescue:GND-power #PWR0101
 U 1 1 5DC997E9
 P 4650 4450
 F 0 "#PWR0101" H 4650 4200 50  0001 C CNN
@@ -159,7 +159,7 @@ $EndComp
 Wire Wire Line
 	4650 4300 4650 4450
 $Comp
-L power:+5V #PWR0102
+L RTC8088-rescue:+5V-power #PWR0102
 U 1 1 5DC9B343
 P 4950 2750
 F 0 "#PWR0102" H 4950 2600 50  0001 C CNN
@@ -170,7 +170,7 @@ F 3 "" H 4950 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper J1
+L RTC8088-rescue:Jumper-Device J1
 U 1 1 5DC9D93E
 P 7500 4300
 F 0 "J1" V 7454 4427 50  0000 L CNN
@@ -181,7 +181,7 @@ F 3 "~" H 7500 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L RTC8088-rescue:GND-power #PWR0103
 U 1 1 5DC9F42F
 P 7500 4900
 F 0 "#PWR0103" H 7500 4650 50  0001 C CNN
@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4000 7500 3800
 $Comp
-L power:GND #PWR0104
+L RTC8088-rescue:GND-power #PWR0104
 U 1 1 5DCA295F
 P 5650 4950
 F 0 "#PWR0104" H 5650 4700 50  0001 C CNN
@@ -207,7 +207,7 @@ F 3 "" H 5650 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L RTC8088-rescue:GND-power #PWR0105
 U 1 1 5DCA2CBC
 P 5850 4950
 F 0 "#PWR0105" H 5850 4700 50  0001 C CNN
@@ -222,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 4400 5850 4950
 $Comp
-L power:+5V #PWR0106
+L RTC8088-rescue:+5V-power #PWR0106
 U 1 1 5DCA6509
 P 5750 2250
 F 0 "#PWR0106" H 5750 2100 50  0001 C CNN
@@ -233,7 +233,7 @@ F 3 "" H 5750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L my_components:DS12885 U1
+L RTC8088-rescue:DS12885-my_components U1
 U 1 1 5DF7ACB7
 P 5750 3550
 F 0 "U1" H 5750 4538 60  0000 C CNN
@@ -248,7 +248,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 2900 4950 2750
 $Comp
-L Device:Battery_Cell CR2032
+L RTC8088-rescue:Battery_Cell-Device CR2032
 U 1 1 5DCAB0F6
 P 6950 4350
 F 0 "CR2032" H 7068 4446 50  0000 L CNN
@@ -259,11 +259,11 @@ F 3 "~" V 6950 4410 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 4000 6950 4000
+	6450 4000 6650 4000
 Wire Wire Line
 	6950 4000 6950 4150
 $Comp
-L power:GND #PWR0107
+L RTC8088-rescue:GND-power #PWR0107
 U 1 1 5DCADE44
 P 6950 4900
 F 0 "#PWR0107" H 6950 4650 50  0001 C CNN
@@ -288,7 +288,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4400 1000 4400
 $Comp
-L power:GND #PWR0108
+L RTC8088-rescue:GND-power #PWR0108
 U 1 1 5DD32DE6
 P 9650 4250
 F 0 "#PWR0108" H 9650 4000 50  0001 C CNN
@@ -301,7 +301,7 @@ $EndComp
 Wire Wire Line
 	9650 4250 9650 3900
 $Comp
-L power:+5V #PWR0109
+L RTC8088-rescue:+5V-power #PWR0109
 U 1 1 5DD36465
 P 9650 2250
 F 0 "#PWR0109" H 9650 2100 50  0001 C CNN
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 2250 5750 2800
 $Comp
-L power:GND #PWR0110
+L RTC8088-rescue:GND-power #PWR0110
 U 1 1 5DC819C0
 P 1250 5550
 F 0 "#PWR0110" H 1250 5300 50  0001 C CNN
@@ -333,7 +333,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 5400 1500 5400
 $Comp
-L power:GND #PWR0111
+L RTC8088-rescue:GND-power #PWR0111
 U 1 1 5DC854DA
 P 1300 2200
 F 0 "#PWR0111" H 1300 1950 50  0001 C CNN
@@ -348,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 2400 1500 2400
 $Comp
-L power:+5V #PWR0112
+L RTC8088-rescue:+5V-power #PWR0112
 U 1 1 5DC89AAF
 P 1000 2200
 F 0 "#PWR0112" H 1000 2050 50  0001 C CNN
@@ -528,7 +528,7 @@ IOR
 Text Label 10600 3600 2    50   ~ 0
 IOW
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J2
+L RTC8088-rescue:Conn_02x06_Odd_Even-Connector_Generic J2
 U 1 1 5DD3559F
 P 9550 5300
 F 0 "J2" H 9600 5717 50  0000 C CNN
@@ -593,4 +593,33 @@ Text Label 10500 5500 2    50   ~ 0
 IRQ4
 Text Label 10500 5600 2    50   ~ 0
 IRQ3
+$Comp
+L Diodes:1N4148 D1
+U 1 1 5ED17F43
+P 6650 4600
+F 0 "D1" V 6696 4521 50  0000 R CNN
+F 1 "1N4148" V 6605 4521 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6650 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 4600 50  0001 C CNN
+	1    6650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 4450 6650 4000
+Connection ~ 6650 4000
+Wire Wire Line
+	6650 4000 6950 4000
+$Comp
+L RTC8088-rescue:GND-power #PWR?
+U 1 1 5ED2D423
+P 6650 4900
+F 0 "#PWR?" H 6650 4650 50  0001 C CNN
+F 1 "GND" H 6655 4727 50  0000 C CNN
+F 2 "" H 6650 4900 50  0001 C CNN
+F 3 "" H 6650 4900 50  0001 C CNN
+	1    6650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4900 6650 4750
 $EndSCHEMATC
